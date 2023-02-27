@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te Amo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      color: red;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Te Amo</h1>
+    <div class="grid">
+      <div>
+        <img src="te_amo.jpg" srcset="te_amo_small.jpg 300w, te_amo_medium.jpg 600w, te_amo_large.jpg 900w" sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px" alt="Te Amo">
+        <p>Esta página web es para ti, mi amor.</p>
+      </div>
+      
+       <!-- Boludita -->
+      
+     </div>
+
+   </div>
+
+</body>
+</html>
